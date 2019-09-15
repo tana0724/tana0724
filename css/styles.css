@@ -1,0 +1,66 @@
+body{
+  background-color:#808080;
+
+
+}
+main{
+  margin:0 auto;
+  text-align:center;
+  margin:16px auto;
+  width:500px;
+  background:pink;
+  border-radius: 15px;
+  border:2px solid #fff;
+  height:180px;
+
+}
+
+.target img{
+  width:100px;
+  height:100px;
+}
+
+.targets {
+  display:flex;
+  justify-content: space-between;
+}
+
+.target{
+  margin:30px;
+}
+
+.target p{
+  margin:0;
+  box-shadow:0 5px #0000ff;
+  background:#0cc;
+  border-radius:10px;
+  user-select:none;
+  cursor:pointer;
+
+
+}
+
+#spin{
+  margin:0;
+  box-shadow:0 5px #0000ff;
+  background:#0cc;
+  border-radius:10px;
+  user-select:none;
+  cursor:pointer;
+  width:450px;
+  margin:0 auto;
+  margin-top:10px;
+  text-align:center;
+
+}
+
+#spin:active{
+  box-shadow:none;
+  margin-top:20px;
+
+}
+.target p:active{
+  box-shadow:none;
+  margin-top:10px;
+
+}
